@@ -10,7 +10,7 @@ public class ResourceController {
 
 	@GetMapping("/test")
 	String readResource() {
-		return "hello!";
+		return "hello! Welcome to springboot + weblogic rest service !";
 	}
 	
 }
